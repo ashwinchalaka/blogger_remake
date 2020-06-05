@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+}
+
+.main_page {
+  height: 300px;
+  width: 100%;
+  background: pink;
+}
+
+.nav_bar {
+  height: 20%;
+  width: 100%;
+  /* background: orange; */
+}
+
+.nav_bar .nav_left {
+  height: 100%;
+  width: 79%;
+  display: inline-block;
+  /* background: purple; */
+}
+
+.nav_bar .nav_left img {
+  margin-left: 20px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+  height: 35px;
+  width: 35px;
+}
+
+.nav_bar .nav_left p {
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+}
+
+.nav_bar .nav_right {
+  height: 100%;
+  width: 20%;
+  display: inline-block;
+  position: relative;
+  bottom: 21px;
+  right: 2.5px;
+  text-align: right;
+  /* background: green; */
+}
+
+.nav_bar .nav_right p {
+  font-size: 16px;
+  position: relative;
+  top: 22.5px;
+  right: 15px;
+}
+
+.nav_bar .nav_right p a {
+  color: white;
+  text-decoration: none;
+}
+
+.main_content {
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  /* background: red; */
+}
+
+.main_content p#title {
+  font-size: 36px;
+  color: white;
+  padding-top: 40px;
+}
+
+.main_content p#sub_title {
+  font-size: 18px;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.main_content button {
+  background: rgb(120, 175, 200);
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.main_content button span {
+  padding: 5px 10px;
+  font-size: 16px;
+  color: white;
+}
