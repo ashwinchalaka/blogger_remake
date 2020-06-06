@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+
+.content_box6 {
+    height: 500px;
+    width: 100%;
+    background: rgb(196,57,51);
+}
+
+.content_box6 .text_box {
+    height: 60%;
+    width: 100%;
+    position: relative;
+    top: 25%;
+    /* background: grey; */
+}
+
+.content_box6 .text_box .title {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-left: 10%;
+    padding-right: 40%;
+    /* background: red; */
+}
+
+.content_box6 .text_box .sub_title {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-left: 10%;
+    padding-right: 50%;
+    position: relative;
+    top: 10%;
+    /* background: purple; */
+}
