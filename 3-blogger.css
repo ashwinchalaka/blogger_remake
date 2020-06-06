@@ -2,20 +2,19 @@
 	margin: 0;
 }
 
-.content-box2{
+.content-box3{
 	height: 300px;
 	width: 100%;
-	background: rgb(253 128 44);
+	background: rgb(186 58 52);
 }
 
-.content-box2 .text_box{
+.content-box3 .text_box{
 	height:150px;
 	width: 50%;
 	margin-left: 10px;
-
 }
 
-.content-box2 .text_box .title{
+.content-box3 .text_box .title{
 	font-family: 'Roboto', sans-serif;
 	font-size: 36px;
   	color: white;
@@ -23,13 +22,12 @@
     padding-left: 80px;
 }
 
-.content-box2 .text_box .subtitle{
+.content-box3 .text_box .subtitle{
 	font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: white;
     padding-top: 20px;
     padding-left: 80px;
-    padding-bottom: 30px;
+    position: relative;
+    line-height: 1.5rem;
 }
-
-
