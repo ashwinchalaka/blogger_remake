@@ -29,6 +29,7 @@
 .content_box4 .text_box .sub_title {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
     color: white;
     padding-left: 50%;
     padding-right: 10%;
