@@ -2,13 +2,13 @@
     margin: 0;
 }
 
-.content_box4 {
+.content_box5 {
     height: 500px;
     width: 100%;
-    background: rgb(60,141,128);
+    background: rgb(88,119,131);
 }
 
-.content_box4 .text_box {
+.content_box5 .text_box {
     height: 60%;
     width: 100%;
     position: relative;
@@ -16,22 +16,21 @@
     /* background: blue; */
 }
 
-.content_box4 .text_box .title {
+.content_box5 .text_box .title {
     font-size: 36px;
     font-family: 'Roboto', sans-serif;
     color: white;
-    /* padding: 100px; */
-    padding-left: 50%;
-    padding-right: 10%;
+    padding-left: 10%;
+    padding-right: 40%;
     /* background: red; */
 }
 
-.content_box4 .text_box .sub_title {
+.content_box5 .text_box .sub_title {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     color: white;
-    padding-left: 50%;
-    padding-right: 10%;
+    padding-left: 10%;
+    padding-right: 50%;
     position: relative;
     top: 10%;
     /* background: purple; */
