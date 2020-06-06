@@ -1,9 +1,10 @@
 * {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .main_page {
-  height: 300px;
+  height: 500px;
   width: 100%;
   background: pink;
 }
@@ -61,6 +62,10 @@
   text-decoration: none;
 }
 
+.nav_bar .nav_right p a:hover {
+  opacity: 0.6;
+}
+
 .main_content {
   height: 150px;
   width: 100%;
@@ -77,13 +82,18 @@
 .main_content p#sub_title {
   font-size: 18px;
   color: white;
-  padding-bottom: 30px;
+  padding-top: 5px;
 }
 
 .main_content button {
   background: rgb(211, 68, 109);
   border-radius: 5px;
+  margin-top: 120px;
   padding: 10px 15px;
+}
+
+.main_content button:hover {
+  background: rgba(211, 68, 109,0.7);
 }
 
 .main_content button span {
