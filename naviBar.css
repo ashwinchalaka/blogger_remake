@@ -1,0 +1,57 @@
+body {
+	margin:0;
+	background-color: lightblue;
+}
+
+.naviBar {
+	background-color: white;
+}
+
+.naviBar img {	
+	display: inline-block;
+}
+
+.naviBar p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+	display: inline-block;
+	/*margin-left: 5px;*/
+	position:relative;
+	bottom:10px;
+}
+
+.title {
+	padding-top: 10px;
+	display: inline-block;
+	float: left;
+	margin-left:10px;
+}
+
+.naviBar .button {
+	text-align: right;
+}
+
+.naviBar .button #signbtn {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	background-color: white;
+	border:none;	
+}
+
+.naviBar .button #createbtn {
+	height:45px;
+	width: 160px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	background-color: rgb(253 128 44);
+	color:white;
+	margin:10px;
+	border-radius: 5px
+}
+
+
+
