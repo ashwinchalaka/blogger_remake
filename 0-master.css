@@ -103,20 +103,20 @@
 }
 
 /* Block 2 */
-.content-box2{
+.content_box2 {
 	height: 300px;
 	width: 100%;
 	background: rgb(253 128 44);
 }
 
-.content-box2 .text_box{
+.content_box2 .text_box{
 	height:150px;
 	width: 50%;
 	margin-left: 10px;
 
 }
 
-.content-box2 .text_box .title{
+.content_box2 .text_box .title{
 	font-family: 'Roboto', sans-serif;
 	font-size: 36px;
   	color: white;
@@ -124,7 +124,7 @@
     padding-left: 80px;
 }
 
-.content-box2 .text_box .subtitle{
+.content_box2 .text_box .subtitle{
 	font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: white;
@@ -134,19 +134,19 @@
 }
 
 /*Box 3*/
-.content-box3{
+.content_box3{
 	height: 300px;
 	width: 100%;
 	background: rgb(186 58 52);
 }
 
-.content-box3 .text_box{
+.content_box3 .text_box{
 	height:150px;
 	width: 50%;
 	margin-left: 10px;
 }
 
-.content-box3 .text_box .title{
+.content_box3 .text_box .title{
 	font-family: 'Roboto', sans-serif;
 	font-size: 36px;
   	color: white;
@@ -154,7 +154,7 @@
     padding-left: 80px;
 }
 
-.content-box3 .text_box .subtitle{
+.content_box3 .text_box .subtitle{
 	font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: white;
