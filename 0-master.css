@@ -1,3 +1,202 @@
 * {
     margin: 0;
 }
+
+/*Block 1 CSS*/
+.main_page {
+  height: 500px;
+  width: 100%;
+  background: pink;
+}
+
+.nav_bar {
+  height: 20%;
+  width: 100%;
+  /* background: orange; */
+}
+
+.nav_bar .nav_left {
+  height: 100%;
+  width: 79%;
+  display: inline-block;
+  /* background: purple; */
+}
+
+.nav_bar .nav_left img {
+  margin-left: 20px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+  height: 35px;
+  width: 35px;
+}
+
+.nav_bar .nav_left p {
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+}
+
+.nav_bar .nav_right {
+  height: 100%;
+  width: 20%;
+  display: inline-block;
+  position: relative;
+  bottom: 21px;
+  right: 2.5px;
+  text-align: right;
+  /* background: green; */
+}
+
+.nav_bar .nav_right p {
+  font-size: 16px;
+  position: relative;
+  top: 22.5px;
+  right: 15px;
+}
+
+.nav_bar .nav_right p a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav_bar .nav_right p a:hover {
+  opacity: 0.6;
+}
+
+.main_content {
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  /* background: red; */
+}
+
+.main_content p#title {
+  font-size: 36px;
+  color: white;
+  padding-top: 40px;
+}
+
+.main_content p#sub_title {
+  font-size: 18px;
+  color: white;
+  padding-top: 5px;
+}
+
+.main_content button {
+  background: rgb(211 68 109);
+  border-radius: 5px;
+  margin-top: 120px;
+  padding: 10px 15px;
+}
+
+.main_content button:hover {
+  background: rgba(211 68 109 0.7);
+}
+
+.main_content button span {
+  padding: 5px 10px;
+  font-size: 16px;
+  color: white;
+}
+
+/* Block 2 */
+.content-box2{
+	height: 300px;
+	width: 100%;
+	background: rgb(253 128 44);
+}
+
+.content-box2 .text_box{
+	height:150px;
+	width: 50%;
+	margin-left: 10px;
+
+}
+
+.content-box2 .text_box .title{
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+  	color: white;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+
+.content-box2 .text_box .subtitle{
+	font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-bottom: 30px;
+}
+
+/*Box 3*/
+.content-box3{
+	height: 300px;
+	width: 100%;
+	background: rgb(186 58 52);
+}
+
+.content-box3 .text_box{
+	height:150px;
+	width: 50%;
+	margin-left: 10px;
+}
+
+.content-box3 .text_box .title{
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+  	color: white;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+
+.content-box3 .text_box .subtitle{
+	font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 80px;
+    position: relative;
+    line-height: 1.5rem;
+}
+
+/*Box 4*/
+.content_box4 {
+    height: 500px;
+    width: 100%;
+    background: rgb(60,141,128);
+}
+
+.content_box4 .text_box {
+    height: 60%;
+    width: 100%;
+    position: relative;
+    top: 25%;
+    /* background: blue; */
+}
+
+.content_box4 .text_box .title {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    /* padding: 100px; */
+    padding-left: 50%;
+    padding-right: 10%;
+    /* background: red; */
+}
+
+.content_box4 .text_box .sub_title {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    color: white;
+    padding-left: 50%;
+    padding-right: 10%;
+    position: relative;
+    top: 10%;
+    /* background: purple; */
+}
