@@ -1,20 +1,20 @@
-*{
+* {
 	margin: 0;
 }
 
-.content-box3{
+.content_box3 {
 	height: 300px;
 	width: 100%;
 	background: rgb(186 58 52);
 }
 
-.content-box3 .text_box{
+.content_box3 .text_box {
 	height:150px;
 	width: 50%;
 	margin-left: 10px;
 }
 
-.content-box3 .text_box .title{
+.content_box3 .text_box .title {
 	font-family: 'Roboto', sans-serif;
 	font-size: 36px;
   	color: white;
@@ -22,7 +22,7 @@
     padding-left: 80px;
 }
 
-.content-box3 .text_box .subtitle{
+.content_box3 .text_box .subtitle {
 	font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: white;

@@ -11,14 +11,14 @@ a:hover {
     color: white;
 }
 
-.content-box8 {
+.content_box8 {
     height: 300px;
     width: 100%;
     background: rgb(30 43 52);
     padding: 55px 0;
 }
 
-.content-box8 .section1 {
+.content_box8 .section1 {
     height: 150px;
     width: 75%;
     margin-left: 12.5%;
@@ -26,7 +26,7 @@ a:hover {
     /* background: white; */
 }
 
-.content-box8 .sub-list {
+.content_box8 .sub-list {
     width: 190px;
     display: inline-block;
     vertical-align: top;
@@ -35,12 +35,12 @@ a:hover {
     color: white;
 }
 
-.content-box8 .sub-list p {
+.content_box8 .sub-list p {
     font-weight: 500;
     font-size: 18px;
 }
 
-.content-box8 .sub-list ul {
+.content_box8 .sub-list ul {
     padding-left: 0;
     list-style-type: none;
     margin-top: 20px;
@@ -48,13 +48,13 @@ a:hover {
     color: rgb(202 208 210);
 }
 
-.content-box8 hr {
+.content_box8 hr {
     border-top: 1px solid rgb(48 69 79);
     width: 75%;
     margin: 0 12.5% 50px;
 }
 
-.content-box8 .section2 {
+.content_box8 .section2 {
     height: 200px;
     width: 75%;
     margin-left: 12.5%;
@@ -62,7 +62,7 @@ a:hover {
     /* background: grey; */
 }
 
-.content-box8 .section2 p {
+.content_box8 .section2 p {
     display: inline-block;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -70,7 +70,7 @@ a:hover {
     margin-right: 10px;
 }
 
-.content-box8 .section2 select {
+.content_box8 .section2 select {
     margin-top: 10px;
     width: 200px;
     height: 35px;
