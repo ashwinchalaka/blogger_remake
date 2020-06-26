@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: lightblue;
+}
+
+.navbar {
+    background: white;
+    width: 100%;
+    height: 60px;
+}
+
+.navbar .nav_left {
+    display: inline-block;
+}
+
+.navbar .nav_left img {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    margin-top: 12.5px;
+    margin-left: 15px;
+}
+
+.navbar .nav_left p {
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(51 51 51);
+}
+
+.navbar .nav_right {
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/* #sign_in :hover {
+    color: rgb(253 128 36);
+} */
+
+.navbar .nav_right #sign_in {
+    text-decoration: none;
+    color: gray;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: 500px;
+}
+
+.navbar .nav_right #create_blog {
+    width: 160px;
+    height: 42.5px;
+    background-color: rgb(253 128 36);
+    color: white;
+    border-radius: 2.5px;
+    border: none;
+    padding: 0 10px;
+}
