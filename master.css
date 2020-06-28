@@ -66,14 +66,14 @@
 
 /*Block 1 CSS*//*Block 1 CSS*//*Block 1 CSS*//*Block 1 CSS*//*Block 1 CSS*//*Block 1 CSS*/
 .main_page {
-  height: 950px;
+  height: 650px;
   width: 100%;
   background: rgb(186 57 51);
-  transition: all 0.3s;
+  transition: all 1s;
 }
 
 .nav_bar {
-  height: 20%;
+  height: 10%;
   width: 100%;
 }
 
@@ -133,26 +133,25 @@
   width: 100%;
   text-align: center;
   /* background: red; */
+  margin-top: 20px;
 }
 
 .main_content p#title {
-  font-size: 30px;
+  font-size: 42px;
   color: white;
-  padding-top: 40px;
 }
 
 .main_content p#sub_title {
-  font-size: 18px;
+  font-size: 20px;
   color: white;
-  padding-top: 15px;
+  margin-top: 15px;
 }
 
 .main_content button {
   background: rgb(253 128 44);
   border-radius: 5px;
   border: none;
-  margin-top: 60px;
- /* padding: 10px 15px;*/
+  margin-top: 45px;
   height:50px;
   width:160px;
 }

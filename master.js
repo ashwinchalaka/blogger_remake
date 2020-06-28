@@ -27,4 +27,4 @@ setInterval(function(){
 		document.getElementsByClassName("main_page")[0].style.backgroundColor = "rgb(72, 132, 169)";
 		circle = 0;
 	}
-}, 5000);
+}, 3000);
