@@ -1,0 +1,20 @@
+
+/* 0-480px for iphone */
+@media only screen and (max-width: 480px){
+    
+}
+
+/* 480px-900px for ipad */
+@media only screen and (min-width: 481px){
+    
+}
+
+/* 900px-1280px for laptop */
+@media only screen and (min-width: 900px){
+    
+}
+
+/* `1280px-1920px for monitor */
+@media only screen and (min-width: 1280px){
+
+}
