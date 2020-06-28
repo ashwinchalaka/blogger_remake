@@ -66,9 +66,10 @@
 
 /*Block 1 CSS*//*Block 1 CSS*//*Block 1 CSS*//*Block 1 CSS*//*Block 1 CSS*//*Block 1 CSS*/
 .main_page {
-  height: 500px;
+  height: 950px;
   width: 100%;
   background: rgb(186 57 51);
+  transition: all 0.3s;
 }
 
 .nav_bar {
@@ -135,7 +136,7 @@
 }
 
 .main_content p#title {
-  font-size: 36px;
+  font-size: 30px;
   color: white;
   padding-top: 40px;
 }
@@ -149,6 +150,7 @@
 .main_content button {
   background: rgb(253 128 44);
   border-radius: 5px;
+  border: none;
   margin-top: 60px;
  /* padding: 10px 15px;*/
   height:50px;
@@ -164,11 +166,12 @@
   font-size: 12px;
   color: white;
   text-transform: uppercase;
+  letter-spacing: 0.5px; 
 }
 
 /* Block 2 *//* Block 2 *//* Block 2 *//* Block 2 *//* Block 2 *//* Block 2 *//* Block 2 */
 .content_box2 {
-	height: 300px;
+	height: 425px;
 	width: 100%;
 	background: rgb(253 128 44);
 }
@@ -197,9 +200,9 @@
     padding-bottom: 30px;
 }
 
-/*Box 3*/
+/*Box 3*//*Box 3*//*Box 3*//*Box 3*//*Box 3*//*Box 3*//*Box 3*//*Box 3*//*Box 3*/
 .content_box3{
-	height: 300px;
+	height: 350px;
 	width: 100%;
 	background: rgb(186 58 52);
 }
@@ -228,9 +231,9 @@
     line-height: 1.5rem;
 }
 
-/*Box 4*/
+/*Box 4*//*Box 4*//*Box 4*//*Box 4*//*Box 4*//*Box 4*//*Box 4*//*Box 4*//*Box 4*/
 .content_box4 {
-    height: 500px;
+    height: 450px;
     width: 100%;
     background: rgb(60,141,128);
 }
@@ -271,7 +274,7 @@
 /* SECTION #5 *//* SECTION #5 *//* SECTION #5 *//* SECTION #5 *//* SECTION #5 *//* SECTION #5 *//* SECTION #5 *//* SECTION #5 */
 
 .content_box5 {
-  height: 500px;
+  height: 425px;
   width: 100%;
   background: rgb(88,119,131);
 }
@@ -308,7 +311,7 @@
 /* SECTION #6 *//* SECTION #6 *//* SECTION #6 *//* SECTION #6 *//* SECTION #6 *//* SECTION #6 *//* SECTION #6 *//* SECTION #6 *//* SECTION #6 *//* SECTION #6 */
 
 .content_box6 {
-  height: 500px;
+  height: 375px;
   width: 100%;
   background: rgb(196,57,51);
 }
@@ -350,7 +353,7 @@
 }
 
 .content_box7{
-	height: 575px;
+	height: 700px;
 	width: 100%;
 	background: rgb(228, 116, 39);
 }
@@ -385,6 +388,7 @@
 	border-radius: 5px;
 	margin-top: 80px;
 	padding: 10px 15px;
+  border:none;
 }
 
 .content_box7 .text_box button:hover {
@@ -409,7 +413,7 @@ a:hover {
 }
 
 .content_box8 {
-  height: 300px;
+  height: 325px;
   width: 100%;
   background: rgb(30 43 52);
   padding: 55px 0;
