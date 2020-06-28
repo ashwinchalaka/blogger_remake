@@ -1,57 +1,54 @@
-
 /* 0-480px for iphone */
-@media only screen and (max-width: 500px){
-<<<<<<< HEAD
-
-	/* Box 1*/
-
-    
-=======
+@media only screen and (max-width: 550px){
     /* SECTION #1 *//* SECTION #1 *//* SECTION #1 *//* SECTION #1 *//* SECTION #1 *//* SECTION #1 *//* SECTION #1 *//* SECTION #1 *//* SECTION #1 *//* SECTION #1 */
-    .main_content p#title {
+    .content_box1 {
+        height: 540px;
+    }
+    .content_box1 .main_content p#title {
         font-size: 28px;
     }
-    .main_content p#sub_title {
+    .content_box1 .main_content p#sub_title {
         font-size: 12px;
     }
->>>>>>> cbc2d4c8e956da706f92ca44774fdc480a46df1a
 }
 
 /* 480px-900px for ipad */
-@media only screen and (min-width: 501px){
-<<<<<<< HEAD
-
-=======
+@media only screen and (min-width: 551px){
     /* SECTION #1 *//* SECTION #1 *//* SECTION #1 *//* SECTION #1 *//* SECTION #1 *//* SECTION #1 *//* SECTION #1 *//* SECTION #1 *//* SECTION #1 *//* SECTION #1 */
-    .main_content p#title {
+    .content_box1 {
+        height: 650px;
+    }
+    .content_box1 .main_content p#title {
         font-size: 36px;
     }
-    .main_content p#sub_title {
+    .content_box1 .main_content p#sub_title {
         font-size: 16px;
     }
->>>>>>> cbc2d4c8e956da706f92ca44774fdc480a46df1a
 }
 
 /* 900px-1280px for laptop */
-@media only screen and (min-width: 900px){
-<<<<<<< HEAD
-
-    
-=======
+@media only screen and (min-width: 951px){
     /* SECTION #1 *//* SECTION #1 *//* SECTION #1 *//* SECTION #1 *//* SECTION #1 *//* SECTION #1 *//* SECTION #1 *//* SECTION #1 *//* SECTION #1 *//* SECTION #1 */
-    .main_content p#title {
+    .content_box1 {
+        height: 650px;
+    }
+    .content_box1 .main_content p#title {
         font-size: 42px;
     }
-    .main_content p#sub_title {
+    .content_box1 .main_content p#sub_title {
         font-size: 20px;
     }
->>>>>>> cbc2d4c8e956da706f92ca44774fdc480a46df1a
 }
 
 /* 1280px-1920px for monitor */
 @media only screen and (min-width: 1281px){
-
-
-/
-
+    .content_box1 {
+        height: 950px;
+    }
+    .content_box1 .main_content p#title {
+        font-size: 42px;
+    }
+    .content_box1 .main_content p#sub_title {
+        font-size: 20px;
+    }
 }
