@@ -72,19 +72,19 @@
   transition: all 1s;
 }
 
-.nav_bar {
+.content_box1 .nav_bar {
   height: 10%;
   width: 100%;
 }
 
-.nav_bar .nav_left {
+.content_box1 .nav_bar .nav_left {
   height: 100%;
   width: 79%;
   display: inline-block;
  
 }
 
-.nav_bar .nav_left img {
+.content_box1 .nav_bar .nav_left img {
   margin-left: 15px;
   display: inline-block;
   position: relative;
@@ -93,7 +93,7 @@
   width: 35px;
 }
 
-.nav_bar .nav_left p {
+.content_box1 .nav_bar .nav_left p {
   font-size: 20px;
   color: white;
   display: inline-block;
@@ -101,7 +101,7 @@
   top: 5px;
 }
 
-.nav_bar .nav_right {
+.content_box1 .nav_bar .nav_right {
   height: 100%;
   width: 20%;
   display: inline-block;
@@ -109,26 +109,25 @@
   bottom: 21px;
   right: 2.5px;
   text-align: right;
- 
 }
 
-.nav_bar .nav_right p {
+.content_box1 .nav_bar .nav_right p {
   font-size: 16px;
   position: relative;
   top: 22.5px;
   right: 15px;
 }
 
-.nav_bar .nav_right p a {
+.content_box1 .nav_bar .nav_right p a {
   color: white;
   text-decoration: none;
 }
 
-.nav_bar .nav_right p a:hover {
+.content_box1 .nav_bar .nav_right p a:hover {
   opacity: 0.6;
 }
 
-.main_content {
+.content_box1 .main_content {
   height: 150px;
   width: 100%;
   text-align: center;
@@ -136,18 +135,18 @@
   margin-top: 20px;
 }
 
-.main_content p#title {
+.content_box1 .main_content p#title {
   font-size: 42px;
   color: white;
 }
 
-.main_content p#sub_title {
+.content_box1 .main_content p#sub_title {
   font-size: 20px;
   color: white;
   margin-top: 15px;
 }
 
-.main_content button {
+.content_box1 .main_content button {
   background: rgb(253 128 44);
   border-radius: 5px;
   border: none;
@@ -156,11 +155,11 @@
   width:160px;
 }
 
-.main_content button:hover {
+.content_box1 .main_content button:hover {
   background: rgba(211 68 109 0.7);
 }
 
-.main_content button span {
+.content_box1 .main_content button span {
   padding: 5px 10px;
   font-size: 12px;
   color: white;
