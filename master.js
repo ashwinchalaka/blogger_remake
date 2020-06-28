@@ -11,3 +11,20 @@ window.onscroll = function() {
   
     prevScrollpos = currentScrollPos;
 }
+
+
+var circle = 0;
+setInterval(function(){
+	if(circle === 0){
+		document.getElementsByClassName("main_page")[0].style.backgroundColor = "rgb(186, 57, 51)";
+		// mainContent.style.backgroundColor = "rgb(60, 141, 128)";
+		circle = 1;
+	}else if(circle === 1){
+		document.getElementsByClassName("main_page")[0].style.backgroundColor = "rgb(60, 141, 128)";
+		circle = 2;
+		// mainContent.style.backgroundColor = "rgb(72, 132, 169)";
+	}else{
+		document.getElementsByClassName("main_page")[0].style.backgroundColor = "rgb(72, 132, 169)";
+		circle = 0;
+	}
+}, 5000);
