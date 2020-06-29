@@ -3,7 +3,8 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* Navi Bar*/
+/* Navi Bar*//* Navi Bar*//* Navi Bar*//* Navi Bar*//* Navi Bar*//* Navi Bar*//* Navi Bar*//* Navi Bar*//* Navi Bar*//* Navi Bar*//* Navi Bar*//* Navi Bar*//* Navi Bar*//* Navi Bar*//* Navi Bar*//* Navi Bar*//* Navi Bar*//* Navi Bar*/
+
 .navbar {
     background: white;
     width: 100%;
@@ -34,7 +35,6 @@
     position: relative;
     bottom: 10px;
     font-size: 20px;
-    font-weight: 500;
     color: rgb(51 51 51);
 }
 
@@ -50,7 +50,6 @@
     color: gray;
     margin-right: 5px;
     font-size: 14px;
-    font-weight: 500px;
 }
 
 .navbar .nav_right #create_blog {
@@ -94,11 +93,12 @@
 }
 
 .content_box1 .nav_bar .nav_left p {
-  font-size: 20px;
   color: white;
   display: inline-block;
   position: relative;
   top: 5px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
 }
 
 .content_box1 .nav_bar .nav_right {
@@ -112,10 +112,11 @@
 }
 
 .content_box1 .nav_bar .nav_right p {
-  font-size: 16px;
   position: relative;
-  top: 22.5px;
-  right: 15px;
+  top: 24px;
+  right: 17px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
 }
 
 .content_box1 .nav_bar .nav_right p a {
@@ -131,13 +132,13 @@
   height: 150px;
   width: 100%;
   text-align: center;
-  /* background: red; */
   margin-top: 20px;
 }
 
 .content_box1 .main_content p#title {
   font-size: 42px;
   color: white;
+  font-weight: 300;
 }
 
 .content_box1 .main_content p#sub_title {
@@ -174,21 +175,28 @@
 	background: rgb(253 128 44);
 }
 
-.content_box2 .text_box{
+.content_box2 .text_box {
 	height:150px;
 	width: 50%;
 	margin-left: 10px;
 }
 
-.content_box2 .text_box .title{
-	font-family: 'Roboto', sans-serif;
+.content_box2 .text_box .title {
 	font-size: 36px;
-  	color: white;
-    padding-top: 100px;
-    padding-left: 80px;
+  color: white;
+  padding-top: 100px;
+  padding-left: 80px;
 }
 
-.content_box2 .text_box .subtitle{
+.content_box2 .text_box .subtitle {
+  font-size: 18px;
+  color: white;
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-bottom: 30px;
+}
+
+.content_box2 .text_box .subtitle {
 	  font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: white;
@@ -199,28 +207,27 @@
 }
 
 /*Box 3*//*Box 3*//*Box 3*//*Box 3*//*Box 3*//*Box 3*//*Box 3*//*Box 3*//*Box 3*/
-.content_box3{
+
+.content_box3 {
 	height: 350px;
 	width: 100%;
 	background: rgb(186 58 52);
 }
 
-.content_box3 .text_box{
+.content_box3 .text_box {
 	height:150px;
 	width: 50%;
 	margin-left: 10px;
 }
 
-.content_box3 .text_box .title{
-	font-family: 'Roboto', sans-serif;
+.content_box3 .text_box .title {
 	font-size: 36px;
   	color: white;
     padding-top: 100px;
     padding-left: 80px;
 }
 
-.content_box3 .text_box .subtitle{
-	font-family: 'Roboto', sans-serif;
+.content_box3 .text_box .subtitle {
     font-size: 18px;
     color: white;
     padding-top: 20px;
@@ -231,42 +238,34 @@
 
 /*Box 4*//*Box 4*//*Box 4*//*Box 4*//*Box 4*//*Box 4*//*Box 4*//*Box 4*//*Box 4*/
 .content_box4 {
-    height: 450px;
-    width: 100%;
-    background: rgb(60,141,128);
+  height: 450px;
+  width: 100%;
+  background: rgb(60,141,128);
 }
 
 .content_box4 .text_box {
-    height: 60%;
-    width: 100%;
-    position: relative;
-    top: 25%;
-    /* background: blue; */
+  height: 60%;
+  width: 100%;
+  position: relative;
+  top: 25%;
 }
 
 .content_box4 .text_box .title {
-    font-size: 36px;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    /* padding: 100px; */
-    padding-left: 50%;
-    padding-right: 10%;
-    /* background: red; */
+  font-size: 36px;
+  color: white;
+  padding-left: 50%;
+  padding-right: 10%;
 }
 
 .content_box4 .text_box .sub_title {
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5;
-    color: white;
-    padding-left: 50%;
-    padding-right: 10%;
-    position: relative;
-    top: 10%;
-    /* background: purple; */
+  font-size: 18px;
+  line-height: 1.5;
+  color: white;
+  padding-left: 50%;
+  padding-right: 10%;
+  position: relative;
+  top: 10%;
 }
-
-
 
 
 /* SECTION #5 *//* SECTION #5 *//* SECTION #5 *//* SECTION #5 *//* SECTION #5 *//* SECTION #5 *//* SECTION #5 *//* SECTION #5 */
@@ -282,28 +281,23 @@
   width: 100%;
   position: relative;
   top: 25%;
-  /* background: blue; */
 }
 
 .content_box5 .text_box .title {
   font-size: 36px;
-  font-family: 'Roboto', sans-serif;
   color: white;
   padding-left: 10%;
   padding-right: 40%;
-  /* background: red; */
 }
 
 .content_box5 .text_box .sub_title {
   font-size: 18px;
-  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   color: white;
   padding-left: 10%;
   padding-right: 50%;
   position: relative;
   top: 10%;
-  /* background: purple; */
 }
 
 /* SECTION #6 *//* SECTION #6 *//* SECTION #6 *//* SECTION #6 *//* SECTION #6 *//* SECTION #6 *//* SECTION #6 *//* SECTION #6 *//* SECTION #6 *//* SECTION #6 */
@@ -319,36 +313,27 @@
   width: 100%;
   position: relative;
   top: 25%;
-  /* background: grey; */
 }
 
 .content_box6 .text_box .title {
   font-size: 36px;
-  font-family: 'Roboto', sans-serif;
   color: white;
   padding-left: 10%;
   padding-right: 40%;
-  /* background: red; */
 }
 
 .content_box6 .text_box .sub_title {
   font-size: 18px;
-  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   color: white;
   padding-left: 10%;
   padding-right: 50%;
   position: relative;
   top: 10%;
-  /* background: purple; */
 }
 
 
 /* SECTION #7 *//* SECTION #7 *//* SECTION #7 *//* SECTION #7 *//* SECTION #7 *//* SECTION #7 *//* SECTION #7 *//* SECTION #7 *//* SECTION #7 *//* SECTION #7 */
-
-*{
-	margin: 0;
-}
 
 .content_box7{
 	height: 700px;
@@ -364,19 +349,17 @@
 }
 
 .content_box7 .text_box .title {
-	font-family: 'Roboto', sans-serif;
 	font-size: 48px;
-  	color: white;
+  color: white;
 }
 
 .content_box7 .text_box .subtitle {
-	font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    color: white;
-    margin-top: 20px;
-    padding-right: 27.5%;
-    padding-left: 27.5%;
-    line-height: 2rem;
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+  padding-right: 27.5%;
+  padding-left: 27.5%;
+  line-height: 2rem;
 }
 
 .content_box7 .text_box .create_button {
@@ -394,7 +377,6 @@
 }
 
 .content_box7 .text_box .create_button span {
-  /* padding: 5px 10px; */
   font-size: 12px;
   color: white;
 }
@@ -422,20 +404,16 @@ a:hover {
   width: 75%;
   margin-left: 12.5%;
   margin-right: 12.5%;
-  /* background: white; */
 }
 
 .content_box8 .sub-list {
   width: 190px;
   display: inline-block;
   vertical-align: top;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
   color: white;
 }
 
 .content_box8 .sub-list p {
-  font-weight: 500;
   font-size: 18px;
 }
 
@@ -458,13 +436,10 @@ a:hover {
   width: 75%;
   margin-left: 12.5%;
   margin-right: 12.5%;
-  /* background: grey; */
 }
 
 .content_box8 .section2 p {
   display: inline-block;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
   color: rgb(202 208 210);
   margin-right: 10px;
 }
@@ -474,7 +449,7 @@ a:hover {
   width: 200px;
   height: 35px;
   background: rgb(49 62 71);
-  color: white;
+  color: rgb(202 208 210);
   border-radius: 5px;
   border: none;
   padding: 5px;
