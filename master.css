@@ -178,7 +178,6 @@
 	height:150px;
 	width: 50%;
 	margin-left: 10px;
-
 }
 
 .content_box2 .text_box .title{
@@ -190,9 +189,10 @@
 }
 
 .content_box2 .text_box .subtitle{
-	font-family: 'Roboto', sans-serif;
+	  font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: white;
+    line-height: 1.5;
     padding-top: 20px;
     padding-left: 80px;
     padding-bottom: 30px;
