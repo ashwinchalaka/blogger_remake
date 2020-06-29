@@ -196,6 +196,16 @@
   padding-bottom: 30px;
 }
 
+.content_box2 .text_box .subtitle {
+	  font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-bottom: 30px;
+}
+
 /*Box 3*//*Box 3*//*Box 3*//*Box 3*//*Box 3*//*Box 3*//*Box 3*//*Box 3*//*Box 3*/
 
 .content_box3 {
