@@ -14,19 +14,20 @@ window.onscroll = function() {
 
 
 var circle = 0;
+
 setInterval(function(){
 	if(circle === 0){
-		document.getElementsByClassName("main_page")[0].style.backgroundColor = "rgb(186, 57, 51)";
+		document.getElementsByClassName("content_box1")[0].style.backgroundColor = "rgb(186, 57, 51)";
 		// mainContent.style.backgroundColor = "rgb(60, 141, 128)";
 		document.getElementById("blogimg").src = "./media/sect1-red-blog.png";
 		circle = 1;
 	}else if(circle === 1){
-		document.getElementsByClassName("main_page")[0].style.backgroundColor = "rgb(60, 141, 128)";
+		document.getElementsByClassName("content_box1")[0].style.backgroundColor = "rgb(60, 141, 128)";
 		document.getElementById("blogimg").src = "./media/sect1-green-blog.png";
 		circle = 2;
 		// mainContent.style.backgroundColor = "rgb(72, 132, 169)";
 	}else{
-		document.getElementsByClassName("main_page")[0].style.backgroundColor = "rgb(72, 132, 169)";
+		document.getElementsByClassName("content_box1")[0].style.backgroundColor = "rgb(72, 132, 169)";
 		document.getElementById("blogimg").src = "./media/sect1-blue-blog.png";
 		circle = 0;
 	}

@@ -168,6 +168,15 @@
   letter-spacing: 0.5px; 
 }
 
+.content_box1 .movingImgs img#blogimg{
+  width:550px;
+  height:300px;
+  margin-top:50px;
+  margin-left:30%; 
+  margin-right: 30% 
+}
+
+
 /* Block 2 *//* Block 2 *//* Block 2 *//* Block 2 *//* Block 2 *//* Block 2 *//* Block 2 */
 .content_box2 {
 	height: 425px;
