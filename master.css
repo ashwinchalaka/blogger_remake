@@ -168,15 +168,56 @@
   letter-spacing: 0.5px; 
 }
 
+/*.content_box1 .moving_imgs .red_theme_imgs{
+   display:inline-block;
+}*/
+
+/*.content_box1 .moving_imgs {
+  display:flex;
+}*/
 .content_box1 .moving_imgs img#blog_img{
-  width:550px;
-  height:300px;
-  margin-top:110px;
-  display: block;
-  margin-left:auto; 
-  margin-right: auto; 
+  width:370px;
+  height:390px;
+  display:block;
+  margin-right: auto;
+  margin-left: auto; 
 }
 
+.content_box1 .moving_imgs .red_left_imgs{
+  float:left;
+  width:25%;
+  width:80px;
+  height:100px;
+  margin-top:0px;
+  padding:5px;
+}
+
+.content_box1 .moving_imgs img#red_left_spoon{
+  width:100px;
+  height:120px;
+ /* margin-top:0px;
+  display: block;
+  margin-bottom: auto;
+  float:left;
+  position: */
+}
+
+.content_box1 .moving_imgs img#red_left_whisk{
+  width:100px;
+  height:120px;
+ /* margin-top:0px;*/
+}
+.content_box1 .moving_imgs img#red_left_cherries{
+  width:100px;
+  height:120px;
+  /*margin-top:0px;*/
+}
+
+.content_box1 .moving_imgs img#red_left_eggs{
+  width:100px;
+  height:120px;
+  /*margin-top:0px;*/
+}
 
 /* Block 2 *//* Block 2 *//* Block 2 *//* Block 2 *//* Block 2 *//* Block 2 *//* Block 2 */
 .content_box2 {

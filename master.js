@@ -18,7 +18,8 @@ var circle = 0;
 setInterval(function(){
 	if(circle === 0){
 		document.getElementsByClassName("content_box1")[0].style.backgroundColor = "rgb(186, 57, 51)";
-		document.getElementById("blog_img").src = "./media/sect1-red-blog.png";
+		// document.getElementById("blog_img").src = "./media/sect1-red-blog.png";
+		 // document.getElementsByClassName("moving_imgs")[0].classList.add("red_theme_imgs");
 		// document.getElementsByClassName("left_imgs")[0].innerHTML = "<img src='sect1-red-spoon.png' style='width:367px;height:396px;'><img src='sect1-red-whisk.png'><img src='sect1-red-eggs.png'><img src='sect1-red-cherries.png'>";
 		circle = 1;
 	}else if(circle === 1){
