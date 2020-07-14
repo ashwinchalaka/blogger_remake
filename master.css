@@ -168,55 +168,80 @@
   letter-spacing: 0.5px; 
 }
 
-/*.content_box1 .moving_imgs .red_theme_imgs{
-   display:inline-block;
-}*/
-
-/*.content_box1 .moving_imgs {
-  display:flex;
-}*/
-.content_box1 .moving_imgs img#blog_img{
-  width:370px;
-  height:390px;
-  display:block;
-  margin-right: auto;
-  margin-left: auto; 
+.content_box1 .red_theme_imgs{
+  /*text-align: left;*/
+  margin-bottom: 0px;
+  margin-top: 30px;
+  /*width:100%;
+  height: 100px;*/
 }
 
-.content_box1 .moving_imgs .red_left_imgs{
-  float:left;
-  width:25%;
-  width:80px;
-  height:100px;
-  margin-top:0px;
-  padding:5px;
+.content_box1 .red_theme_imgs .red_left_imgs{
+   display: inline-block;
+   margin:-30px;
+
+  /* width:100px;
+   height:300px;*/
 }
 
-.content_box1 .moving_imgs img#red_left_spoon{
-  width:100px;
-  height:120px;
- /* margin-top:0px;
-  display: block;
-  margin-bottom: auto;
-  float:left;
-  position: */
+.content_box1 .red_theme_imgs .red_center_img{
+   display: inline-block;
+   margin-top: 150px;
+   /*margin:5px;*/
+   width:55%;
+   height:100%;
 }
 
-.content_box1 .moving_imgs img#red_left_whisk{
-  width:100px;
-  height:120px;
+.content_box1 .red_theme_imgs .red_right_imgs{
+   display: inline-block;
+   margin:5px;
+   /*width: 20%;*/
+   
+}
+
+.content_box1 .red_theme_imgs #red_left_spoon{
+  width:12rem;
+  margin-left:-50px;
+}
+
+.content_box1 .red_theme_imgs .red_left_imgs img#red_left_whisk{
+  /*width:100px;
+  height:120px;*/
+   width:12rem;
+   margin-left:-35px;
  /* margin-top:0px;*/
 }
-.content_box1 .moving_imgs img#red_left_cherries{
-  width:100px;
-  height:120px;
+.content_box1 .red_theme_imgs .red_left_imgs img#red_left_cherries{
+  /*width:100px;
+  height:120px;*/
+  width: 20%;
   /*margin-top:0px;*/
 }
 
-.content_box1 .moving_imgs img#red_left_eggs{
-  width:100px;
-  height:120px;
-  /*margin-top:0px;*/
+.content_box1 .red_theme_imgs .red_left_imgs img#red_left_eggs{
+  width:14rem;
+  margin-left:-50px;
+ /* margin-bottom: -20px;*/
+}
+
+.content_box1 .red_theme_imgs img#blog_img{
+ /* width:370px;*/
+  width: 100%;
+  height:100%;
+}
+
+.content_box1 .red_theme_imgs .red_right_imgs img#red_right_pitcher{
+  width:50%;
+}
+
+.content_box1 .red_theme_imgs .red_right_imgs img#red_right_rolling_pin{
+  width: 15rem;
+  margin-right: -50px;
+}
+
+.content_box1 .red_theme_imgs .red_right_imgs img#red_right_pie{
+  width: 20rem;
+  margin-right: -70px;
 }
 
 /* Block 2 *//* Block 2 *//* Block 2 *//* Block 2 *//* Block 2 *//* Block 2 *//* Block 2 */
